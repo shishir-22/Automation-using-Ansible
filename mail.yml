@@ -1,0 +1,11 @@
+- hosts: 192.168.43.238
+  tasks:
+   - mail:
+        host: smtp.gmail.com
+        port: 587
+        username: 500052404@stu.upes.ac.in
+        password: shishir@10
+        to: Shishir <shishirgoyal22111998@gmail.com>
+        subject: Test-Mail
+        body: Hello Testing mail from ansible
+
