@@ -1,0 +1,10 @@
+Step 1: Ansible is available in redhat's epel repository hence first we will install the epel repository.
+Command: *yum install epel-release*
+
+Step 2: After installing epel repository we will install ansible
+Command: *yum install ansible*
+
+Step 3: Check ansbile version to see ansible installed properly or not
+Command: *ansible --version*
+
+Now ansible is installed successfully, next we will configure its files to make it ready for use.
