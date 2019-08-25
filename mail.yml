@@ -1,3 +1,4 @@
+#this playbook is to automate the mailing process. You can use this with any scripting language like python 
 - hosts: localhost
   tasks:
    - mail:
@@ -8,4 +9,3 @@
         to: #enter receiver's name and mail here eg. abc <abc123@gmail.com>
         subject: Test-Mail
         body: Hello Testing mail from ansible
-
